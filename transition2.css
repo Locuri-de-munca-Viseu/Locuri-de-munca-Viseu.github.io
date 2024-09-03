@@ -1,0 +1,19 @@
+@keyframes animation {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #c5b5b5;
+}
+
+.parent {
+    background-color: #f0dbdb;
+    animation: animation 0.4s forwards;
+    float: right;
+}
+
+footer {
+    float: bottom;
+}
